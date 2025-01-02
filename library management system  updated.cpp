@@ -51,7 +51,7 @@ void displayBooks(const vector<Book>& library) {
         }
     }
     cout << "===================================" << endl;
-    cout << "\nPress Enter to continue...";
+    cout << "\nPress Enter to continue....";
     cin.ignore();
     cin.get();
 }
