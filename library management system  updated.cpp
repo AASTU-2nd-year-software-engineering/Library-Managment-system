@@ -56,7 +56,7 @@ void displayBooks(const vector<Book>& library) {
     cin.get();
 }
 
-void addBook(vector<Book>& library) {
+void addBook(vector<Book>& library) //used to add books {
     clearScreen();
 
     int id, copies;
