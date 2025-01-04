@@ -208,20 +208,20 @@ void saveLibrary(const vector<Book>& library) {
     pause(2);
 }
 void searchBookByTitle() {
-    std::string title;
-    std::cout << "Enter the title of the book to search: ";
-    std::getline(std::cin, title);
+    string title;
+    cout << "Enter the title of the book to search: ";
+    getline(cin, title);
     
     bool found = false;
     for (const auto& book : books) { // Assuming 'books' is a vector of Book objects
         if (book.title == title) {
-            std::cout << "Book found: " << book.title << ", Copies: " << book.copies << std::endl;
+            cout << "Book found: " << book.title << ", Copies: " << book.copies <<endl;
             found = true;
             break;
         }
     }
     if (!found) {
-        std::cout << "Book not found." << std::endl;
+        cout << "Book not found." <<endl;
     }
 }
 void loadLibrary(vector<Book>& library) {
