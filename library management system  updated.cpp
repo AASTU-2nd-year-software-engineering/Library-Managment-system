@@ -51,12 +51,12 @@ void displayBooks(const vector<Book>& library) {
         }
     }
     cout << "===================================" << endl;
-    cout << "\nPress Enter to continue....";
+    cout << "\nPress Enter to continue...";
     cin.ignore();
     cin.get();
 }
 
-void addBook(vector<Book>& library) //used to add books {
+void addBook(vector<Book>& library) {
     clearScreen();
 
     int id, copies;
@@ -207,23 +207,7 @@ void saveLibrary(const vector<Book>& library) {
     }
     pause(2);
 }
-void searchBookByTitle() {
-    string title;
-    cout << "Enter the title of the book to search: ";
-    getline(cin, title);
-    
-    bool found = false;
-    for (const auto& book : books) { // Assuming 'books' is a vector of Book objects
-        if (book.title == title) {
-            cout << "Book found: " << book.title << ", Copies: " << book.copies <<endl;
-            found = true;
-            break;
-        }
-    }
-    if (!found) {
-        cout << "Book not found." <<endl;
-    }
-}
+
 void loadLibrary(vector<Book>& library) {
     ifstream inFile("library_data.txt");
     if (inFile.is_open()) {
@@ -341,4 +325,3 @@ int main() {
 
     return 0;
 }
-
