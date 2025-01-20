@@ -4,17 +4,11 @@
 + second year software engineering student
 # Memeber
 +  **Daniel Gashaw**  (ETS0387/16)
-+  *contribution*:
 +  **Dawit Lulie**   (ETS0400/16)
-+  *contribution*:
 +  **Emran Seid**    (ETS0472/16)(Emran-Mohammed)
-+  *contribution*: developed version 1 code and made improvements and drew *flowcharts* on documentation.
 +  **Feven Tassew**  (ETS0557/16)
-+  *contribution*:
 +  **Hiwot Anmut**   (ETS0549/16)
-+  *contribution*:
 +  **Fenet Firomsa** (ETS0721/16)
-+  *contribution*:
 +  #Library Management System
 +  ##Introduction
 Managing a library can be a challenging task, especially when it comes to tracking book inventories, member information, and borrowing records. The Library Management System is a C++ program designed to simplify these operations by providing an easy-to-use interface for librarians or administrators.
