@@ -74,10 +74,11 @@ Download the Code:
 ## Compile the Program:
 
 Use a C++ compiler to compile the source code file.
-Example command (GCC): `g++ -o LibraryManagementSystem LibraryManagementSystem.cpp`
++ Example command (GCC): `g++ -o LibraryManagementSystem LibraryManagementSystem.cpp`
 
 ## Run the Program:
-Execute the compiled file: `./LibraryManagementSystem`
+Execute the compiled file:
++ Example: `./LibraryManagementSystem`
 
 ## How to Use
 **Main Menu:**
@@ -107,6 +108,7 @@ Upon starting the program, you’ll see a menu with options to manage books, mem
 + Load previously saved data to continue from where you left off.
 
 # Future Enhancements
++ Work more on error handling(e.g when accpting id and make sure it is unique and integer data type)
 + Enhance the search functionality (e.g., search by title or author).
 + Add a graphical user interface (GUI).
 + Make this system work on Linux and Mac operating systems
