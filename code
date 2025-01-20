@@ -237,7 +237,7 @@ int main() {
     do {
         clearScreen();
         cout << "===================================" << endl;
-        cout << "     Library Management System     " << endl;
+        cout << "Welcome to the Library System, your gateway to easy book management !" << endl;
         cout << "===================================" << endl;
         cout << "1. Display Books" << endl;
         cout << "2. Add Book" << endl;
