@@ -60,3 +60,49 @@ The Library Management System provides the following functionalities:
 
   + Save the library's book collection to a file for later use
 
+  #  Getting Started
+##Prerequisites
+To run this program, you will need:
+
++ A computer with a C++ compiler installed (e.g., GCC, MinGW, or Visual Studio).
++ The source code files from this repository.
+## Installation and Setup
+Download the Code:
+
++ Clone this repository or download the ZIP file.
++ Extract the contents to a directory of your choice.
+##Compile the Program:
+
+Use a C++ compiler to compile the source code file.
+Example command (GCC): 'g++ -o LibraryManagementSystem LibraryManagementSystem.cpp'
+
+##Run the Program:
+Execute the compiled file: './LibraryManagementSystem'
+
+## How to Use
+**Main Menu:**
+
+Upon starting the program, you’ll see a menu with options to manage books, members, and more.
+
+**Book Operations:**
+
++ Add new books by providing the book ID, title, author, and number of copies.
++ Display all books in a tabular format.
++ Update the number of copies for an existing book.
++ Remove a book using its ID.
++ Search for a specific book by its ID.
+
+**Member Operations:**
+
++ Register new members by providing their ID and name.
++ Display the list of all members.
+
+**Borrowing Books:**
+
++ Enter the member's ID and the book's ID to borrow a book.
++ The system will check for the book’s availability and update the records accordingly.
+  
+**Save and Load Data:**
++ Save the library’s current state to a file (library_data.txt).
++ Load previously saved data to continue from where you left off.
+
