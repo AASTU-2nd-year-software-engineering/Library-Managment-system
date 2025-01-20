@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
-#include <string>
-#include <limits>
+#include <string>//for working with strings
+#include <limits>// for accessing numeric limits
 #include <windows.h>
 #include <vector>
 #include <algorithm>
