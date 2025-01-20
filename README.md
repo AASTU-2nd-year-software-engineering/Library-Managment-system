@@ -3,7 +3,7 @@
 # About us
 + second year software engineering student
 # Memeber
-+  **Daniel Gashaw**  (ETS0387/16)(**Max646**)
++  **Daniel Gashaw**  (ETS0387/16)(**Maxd646**)
 +  **Dawit Lulie**   (ETS0400/16)
 +  **Emran Seid**    (ETS0472/16)(**Emran-Mohammed**)
 +  **Feven Tassew**  (ETS0557/16)
