@@ -9,8 +9,8 @@
 +  **Feven Tassew**  (ETS0557/16)(**feven1805**)
 +  **Hiwot Anmut**   (ETS0549/16)(**chayim97**)
 +  **Fenet Firomsa** (ETS0721/16)(**fenetfiromsa**)
-+  #Library Management System
-+  ##Introduction
+
+ #Introduction
 Managing a library can be a challenging task, especially when it comes to tracking book inventories, member information, and borrowing records. The Library Management System is a C++ program designed to simplify these operations by providing an easy-to-use interface for librarians or administrators.
 
 This system is perfect for managing libraries in educational institutions, small organizations, or any setting that requires a streamlined way to handle books and members.
@@ -74,10 +74,10 @@ Download the Code:
 ##Compile the Program:
 
 Use a C++ compiler to compile the source code file.
-Example command (GCC): 'g++ -o LibraryManagementSystem LibraryManagementSystem.cpp'
+Example command (GCC): `g++ -o LibraryManagementSystem LibraryManagementSystem.cpp`
 
 ##Run the Program:
-Execute the compiled file: './LibraryManagementSystem'
+Execute the compiled file: `./LibraryManagementSystem`
 
 ## How to Use
 **Main Menu:**
