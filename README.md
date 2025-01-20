@@ -1,4 +1,4 @@
-# Hello, this is Librrary Mangnent system project
+# Hello, this is Library Managnment system project
 
 # About us
 + second year software engineering student
