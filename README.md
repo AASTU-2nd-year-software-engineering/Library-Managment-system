@@ -1,7 +1,7 @@
-# Hello, this is Library Managnment system project
+# Hello, this is the Library Management system project
 
 # About us
-+ second year software engineering student
++ Second-year software engineering student
 # Memeber
 +  **Daniel Gashaw**  (ETS0387/16)(**Maxd646**)
 +  **Dawit Lulie**   (ETS0400/16)(**DawitLulie**)
@@ -10,12 +10,12 @@
 +  **Hiwot Anmut**   (ETS0549/16)(**chayim97**)
 +  **Fenet Firomsa** (ETS0721/16)(**fenetfiromsa**)
 
- #Introduction
+ # Introduction
 Managing a library can be a challenging task, especially when it comes to tracking book inventories, member information, and borrowing records. The Library Management System is a C++ program designed to simplify these operations by providing an easy-to-use interface for librarians or administrators.
 
 This system is perfect for managing libraries in educational institutions, small organizations, or any setting that requires a streamlined way to handle books and members.
 
-##What This Program Does
+## What This Program Does
 The Library Management System provides the following functionalities:
 
 **1. Manage Books:**
@@ -40,28 +40,28 @@ The Library Management System provides the following functionalities:
 
 + Save the library's current data to a file.
 + Load previously saved library data.
-##Key Features
-+ **Book Management:**
+## Key Features
+**Book Management:**
 
   + Add, display, update, remove, and search for books.
   + Keep track of the number of copies for each book.
     
-+**Member Management:**
+**Member Management:**
 
   + Register new members.
   + Maintain a list of all members.
     
-+**Borrowing System:**
+**Borrowing System:**
 
   + Allow members to borrow books.
   + Automatically reduce the number of available copies when a book is borrowed.
     
-+**Data Storage:**
+**Data Storage:**
 
   + Save the library's book collection to a file for later use
 
   #  Getting Started
-##Prerequisites
+## Prerequisites
 To run this program, you will need:
 
 + A computer with a C++ compiler installed (e.g., GCC, MinGW, or Visual Studio).
@@ -71,12 +71,12 @@ Download the Code:
 
 + Clone this repository or download the ZIP file.
 + Extract the contents to a directory of your choice.
-##Compile the Program:
+## Compile the Program:
 
 Use a C++ compiler to compile the source code file.
 Example command (GCC): `g++ -o LibraryManagementSystem LibraryManagementSystem.cpp`
 
-##Run the Program:
+## Run the Program:
 Execute the compiled file: `./LibraryManagementSystem`
 
 ## How to Use
@@ -106,3 +106,7 @@ Upon starting the program, you’ll see a menu with options to manage books, mem
 + Save the library’s current state to a file (library_data.txt).
 + Load previously saved data to continue from where you left off.
 
+# Future Enhancements
++ Enhance the search functionality (e.g., search by title or author).
++ Add a graphical user interface (GUI).
++ Make this system work on Linux and Mac operating systems
