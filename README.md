@@ -1,4 +1,4 @@
-# Hi here,  this is second year software engineering sudent's group project
+# Hello, this is Librrary Mangnent sysstem project
 
 # About us
 + second year software engineering student
