@@ -2,10 +2,10 @@
 #include <iomanip>
 #include <string>//for working with strings
 #include <limits>// for accessing numeric limits
-#include <windows.h>//for screen sleep.
-#include <vector>
-#include <algorithm>
-#include <fstream>
+#include <windows.h>  // For Sleep() and Windows-specific functions  
+#include <vector>     // For dynamic arrays and related operations  
+#include <algorithm>  // For sorting, searching, and other algorithms  
+#include <fstream>    // For file input/output operations  
 
 using namespace std;
 
