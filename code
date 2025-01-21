@@ -2,7 +2,7 @@
 #include <iomanip>
 #include <string>//for working with strings
 #include <limits>// for accessing numeric limits
-#include <windows.h>
+#include <windows.h>//for screen sleep.
 #include <vector>
 #include <algorithm>
 #include <fstream>
