@@ -107,8 +107,52 @@ Upon starting the program, you’ll see a menu with options to manage books, mem
 + Save the library’s current state to a file (library_data.txt).
 + Load previously saved data to continue from where you left off.
 
-# Future Enhancements
-+ Work more on error handling(e.g when accpting id and make sure it is unique and integer data type)
-+ Enhance the search functionality (e.g., search by title or author).
-+ Add a graphical user interface (GUI).
-+ Make this system work on Linux and Mac operating systems
+## Book Management
+
+Automatically check for duplicate book IDs when adding new books.
+
+Simple and clear menu navigation for better usability.
+
+## Member Management
+
+Search members by ID or name.
+
+Option to update or delete member information.
+
+## Borrowing System
+
+Allow members to borrow multiple books at once.
+
+Track borrow dates and return due dates.
+
+Automatically prevent borrowing if copies are unavailable.
+
+Display all currently borrowed books along with the member details.
+
+## Data Storage
+
+Add support for backup and restore of library data.
+
+## User Experience
+
+Input validation to prevent invalid entries and crashes.
+
+Clear success/error messages after every operation for better feedback.
+
+## Future Enhancements
+
+Add return book functionality with late return tracking.
+
+Introduce fines for overdue books.
+
+Implement user authentication (admin vs. staff roles).
+
+Add book categories/genres for better organization.
+
+Include statistics and reports (e.g., most borrowed books, active members).
+
+Support multiple data formats (e.g., JSON, CSV).
+
+Add email or message reminders for due books.
+
+Integrate database support (e.g., SQLite or MySQL).
